@@ -4,7 +4,7 @@ import "../index.css";
 
 const MyFooter = () => {
   return (
-    <Container className="text-secondary m-6" style={{ marginTop: "120px" }}>
+    <Container className="text-secondary m-6" style={{ marginTop: "120px", paddingInline: "10%" }}>
       <Row className="mb-3">
         <Col className="d-flex">
           <Facebook className="fs-3 me-3" style={{ cursor: "pointer" }} />
