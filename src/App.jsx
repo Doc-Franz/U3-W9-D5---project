@@ -4,7 +4,7 @@ import MyNav from "./components/MyNav";
 import MyHero from "./components/MyHero";
 import MyMovies from "./components/MyMovies";
 import MyFooter from "./components/MyFooter";
-// import MyAccount from "./components/MyAccount";
+import MyAccount from "./components/MyAccount";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <MyMovies movie="Harry Potter" />
       <MyMovies movie="The lord of the rings" />
       <MyFooter />
-      {/* <MyAccount /> */}
+      <MyAccount />
     </>
   );
 }
