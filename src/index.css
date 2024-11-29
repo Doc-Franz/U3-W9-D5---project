@@ -71,6 +71,6 @@ p:hover {
   color: rgb(243, 239, 239) !important;
 }
 
-.row-cols-3 img:hover {
+.cover-grid img:hover {
   transform: scale(1.05);
 }

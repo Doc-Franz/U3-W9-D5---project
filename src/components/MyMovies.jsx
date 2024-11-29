@@ -48,7 +48,7 @@ class MyMovies extends Component {
             </Col>
           </Row>
         ) : (
-          <Row className="row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-2">
+          <Row className="cover-grid row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-2">
             {this.state.movies.slice(0, 6).map((movie) => (
               <img src={movie.Poster} key={movie.imdbID} style={{ cursor: "pointer" }} />
             ))}
