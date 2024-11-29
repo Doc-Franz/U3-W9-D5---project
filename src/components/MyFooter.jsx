@@ -1,5 +1,6 @@
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { Facebook, Instagram, Twitter, Youtube } from "react-bootstrap-icons";
+import "../index.css";
 
 const MyFooter = () => {
   return (

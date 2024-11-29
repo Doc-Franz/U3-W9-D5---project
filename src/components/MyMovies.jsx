@@ -1,6 +1,7 @@
 import { Component } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Spinner from "react-bootstrap/Spinner";
+import "../index.css";
 
 class MyMovies extends Component {
   state = {
@@ -47,9 +48,9 @@ class MyMovies extends Component {
             </Col>
           </Row>
         ) : (
-          <Row className="row-cols-3 row-cols-md-4 row-cols-lg-6 g-2">
+          <Row className="row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-2">
             {this.state.movies.slice(0, 6).map((movie) => (
-              <img src={movie.Poster} key={movie.imdbID} />
+              <img src={movie.Poster} key={movie.imdbID} style={{ cursor: "pointer" }} />
             ))}
           </Row>
         )}
